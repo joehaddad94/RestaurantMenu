@@ -1,0 +1,92 @@
+/* Font Families
+font-family: 'Poppins', sans-serif;
+font-family: 'Satisfy', cursive; 
+*/
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-family: 'Satisfy', cursive;
+    font-size: 1.8rem; 
+}
+
+.first-page {
+    height: 300mm;
+    width: 200mm;
+    margin-left: 550px;
+    border: 2px solid;
+    border-color: red;
+    background-color: beige;
+    
+}
+
+.header1 {
+    text-align: center;
+    padding-top: 50%
+}
+
+
+.delivery-items {
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem
+}
+
+.h1-color1 {
+    color: red;
+}
+
+.divvy-logo2 {
+    position:absolute;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding-left: 60.85%;
+    padding-top: 1.5px;
+}
+
+.chicken-burger {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin-left: 23%;
+    border-radius: 50%;
+}
+
+.steak-sandwich{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    border-radius: 40%;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+.logo-container {
+    background: rgba(0, 0, 0, 0);
+}
+
+/* .bold-text {
+    font-weight: bold;
+} */
+
+.steak-sandwich-container {
+    position: absolute;
+    padding-left: 24%;
+    padding-top: 9%;
+    line-height: 1;
+}
+
+.underline-text {
+    text-decoration: underline;
+}
+
+.chicken-burger-container {
+    text-align: right;
+    line-height: 1;
+    padding-top: 70px;
+    padding-right: 350px;
+}
