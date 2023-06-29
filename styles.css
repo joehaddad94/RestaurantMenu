@@ -20,8 +20,19 @@ h2 {
     margin-left: 550px;
     border: 2px solid;
     border-color: red;
-    background-color: beige;
+    background-color: rgb(241, 239, 239);
     
+}
+
+.second-page {
+    height: 300mm;
+    width: 200mm;
+    margin-left: 550px;
+    margin-top: 50px;
+    border: 2px solid;
+    border-color: red;
+    text-align: center;
+    /* position: relative; */
 }
 
 .header1 {
@@ -62,7 +73,8 @@ h2 {
     height: auto;
     border-radius: 40%;
     margin-left: 25%;
-    margin-top: 2%;
+    margin-top: 4%;
+    transform: rotate(-11deg);
 }
 
 .logo-container {
@@ -90,3 +102,89 @@ h2 {
     padding-top: 70px;
     padding-right: 350px;
 }
+
+.divvy-logo1 {
+    width: 160px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.starters {
+    border: 2px solid;
+    height: auto;
+    width: 45%;
+    /* display: inline-block; */
+    float: left;
+    /* position: absolute; */
+    text-align: left;
+    margin-left: 5%;
+    
+}
+
+.mains {
+    border: 2px solid;
+    height: auto;
+    width: 45%;
+    /* display: inline-block; */
+    float: right;
+    /* position: absolute; */
+    text-align: left;
+}
+
+.salads {
+    border: 2px solid;
+    height: auto;
+    width: 45%;
+    margin-top: 4%;
+    margin-left: 5%;
+    text-align: left;
+    float: left;
+    /* position: absolute; */
+}
+
+.pizzas {
+    border: 2px solid;
+    height: auto;
+    width: 45%;
+    margin-left: 5%;
+    float: right;
+    /* position: absolute; */
+}
+
+.dessert {
+    border: 2px solid;
+    height: 15%;
+    width: 49%;
+    float: right;
+    position: absolute;
+}
+
+.menu-headers {
+    font-family: 'Poppins', sans-serif;
+    color: rgba(221, 29, 29, 0.89);
+    font-weight: bolder;
+    margin: 0;
+    
+}
+.item-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+  }
+
+  .list {
+    line-height: 0%; 
+  }
+
+  .price {
+    padding-left: 5px;
+  }
