@@ -31,7 +31,7 @@ h2 {
     margin-top: 50px;
     border: 2px solid;
     border-color: red;
-    /* text-align: center; */
+    text-align: center;
     /* position: relative; */
 }
 
@@ -73,7 +73,7 @@ h2 {
     height: auto;
     border-radius: 40%;
     margin-left: 25%;
-    margin-top: 4%;
+    margin-top: 6%;
     transform: rotate(-11deg);
 }
 
@@ -121,16 +121,17 @@ h2 {
   
   .left {
     float: left;
-    width: 45%;
+    width: 44%;
     margin-left: 5%;
     margin-top: 2%;
+    text-align: left;
   }
   
   .right {
     float: right;
-    width: 45%;
-    margin-left: 5%;
-    margin-top: 2%;
+    width: 44%;
+    margin: 2% 2% 0 5%;
+    text-align: left;
   }
   
   .starters {
@@ -163,7 +164,7 @@ h2 {
     height: auto;
   }
   
-  .div6 {
+  .cocktail {
     float: left;
     width: 100%;
     height: auto;
@@ -210,7 +211,7 @@ h2 {
     float: right;
     font-size: 80%;
     /* padding-right: 45%; */
-    color: red;
+    color: rgba(221, 29, 29, 0.89);
     font-family: 'Satisfy', cursive;
   }
 
@@ -220,3 +221,29 @@ h2 {
     font-size: 0.7rem;
   }
   
+  .footer {
+    /* border: 2px solid; */
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .footer1 {
+        margin-bottom: 0;
+        color: rgba(221, 29, 29, 0.89);
+  }
+
+  .footer2 {
+    font-size: 0.7rem;
+    margin-top: 0;
+    margin-bottom: 0.5;
+  }
+
+  .footer3{
+    margin-top: 0;
+    color: rgba(221, 29, 29, 0.89);
+  }
+
+  .footer4{
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
