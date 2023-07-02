@@ -166,14 +166,12 @@ li {
 
 .price {
   display: inline-block;
-  float: right;
   font-size: 80%;
   padding-right: 4%;
   font-family: "Poppins", sans-serif;
 }
 
 .note {
-  display: inline-block;
   float: right;
   font-size: 80%;
   color: rgba(221, 29, 29, 0.89);
